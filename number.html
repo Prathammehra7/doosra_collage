@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Question 15</title>
+    <script>
+        function demo() {
+            let n1 = document.getElementById("inp").value;
+            let sum = 1;
+            for (let i = 1; i <= n1; i++) {
+                sum = sum * i;
+            }
+            document.getElementById("out").value = sum;
+        }
+    </script>
+</head>
+
+<body>
+    <h1 style="color: blue;">Calculate factorial of no: </h1>
+    Enter your no. :- <input type="number" id="inp">
+    <br>
+    Factorial of no. :- <input type="number" id="out">
+    <br>
+    <button onclick="demo()">Click</button>
+</body>
+
+</html>

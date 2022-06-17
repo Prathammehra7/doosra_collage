@@ -1,0 +1,12 @@
+body{
+    background-image: url(space.jpg);
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.name {
+    font-size: 125px;
+}
+#hi{
+    font-size: 200px;
+}t0
